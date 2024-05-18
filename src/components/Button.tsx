@@ -11,7 +11,11 @@ const Button = ({
 }) => {
   return (
     <button
-      style={{ backgroundColor: disabled ? "red" : "blue" }}
+      style={{
+        backgroundColor: disabled ? "red" : "blue",
+        color: "white",
+        padding: 10,
+      }}
       onClick={onClick}
     >
       {children}
